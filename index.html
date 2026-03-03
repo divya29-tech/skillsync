@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rural Women Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo-name">Skill Sync</div>
+    <ul class="nav-links">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#vision" class="nav-item">Vision-Mission</a></li>
+        <li><a href="#service" class="nav-item">Skill Match</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="section hero">
+    <div class="hero-content">
+        <div class="text-section">
+            <h1>Rural Women Connect</h1>
+            <p>
+                Connecting rural women's skills with real market demand
+                and empowering them financially.
+            </p>
+            <a href="#service" class="start-btn">Get Started</a>
+        </div>
+        <div class="logo-section">
+            <img src="images/logo.jpeg" alt="Logo">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section about">
+    <div>
+        <h2>About</h2>
+        <p>
+            SkillSync is a digital platform designed to connect rural women’s skills with real market demand and income opportunities.
+
+It helps women identify high-demand skills in their region and guides them on where to sell their products or services.
+
+By using technology and data-driven insights, SkillSync promotes financial independence and entrepreneurship among rural communities.
+
+Our goal is to empower women through skill development, market access, and sustainable livelihood opportunities.
+        </p>
+    </div>
+</section>
+
+<section id="vision" class="section vision-mission">
+    <div class="vm-card">
+        <h2>Our Vision</h2>
+        <p>To build an inclusive digital ecosystem that empowers rural women with equal economic opportunities.
+
+To become a trusted platform that transforms traditional skills into modern income sources.
+
+To encourage self-reliance and confidence among women through technology-driven solutions.
+
+To support sustainable rural development by connecting talent with market demand.
+    <div class="vm-card">
+        <h2>Our Mission</h2>
+        <ul>
+            <li>Provide skill-based opportunities</li>
+            <li>Bridge skill-market gap</li>
+            <li>Encourage innovation</li>
+        </ul>
+    </div>
+</section>
+
+<section id="service" class="section card-section">
+    <div class="card">
+        <h1>Skill Match</h1>
+
+        <label>Select Location</label>
+        <select id="location">
+            <option>Ariyalur</option>
+            <option>Perambalur</option>
+            <option>Theni</option>
+            <option>Dharmapuri</option>
+            <option>Madurai</option>
+            <option>Salem</option>
+            <option>Coimbatore</option>
+            <option>Chennai</option>
+            <option>Trichy</option>
+            <option>Erode</option>
+            <option>Dindigul</option>
+            <option>Karur</option>
+            <option>Namakkal</option>
+            <option>Villupuram</option>
+            <option>Sivagangai</option>
+            <option>Ramanathapuram</option>
+            <option>Thanjavur</option>
+            <option>Nagapattinam</option>
+        </select>
+
+        <p id="suggestion" class="suggestion-box"></p>
+
+        <label>Select Skill</label>
+        <select id="skill">
+            <option>Tailoring</option>
+            <option>Embroidery</option>
+            <option>Handloom Weaving</option>
+            <option>Pickle Making</option>
+            <option>Masala Powder</option>
+            <option>Millet Products</option>
+            <option>Bakery Items</option>
+            <option>Dairy Products</option>
+            <option>Poultry Farming</option>
+            <option>Mushroom Cultivation</option>
+            <option>Organic Vegetable Selling</option>
+            <option>Flower Garland Making</option>
+            <option>Agarbatti Making</option>
+            <option>Leaf Plate Making</option>
+            <option>Candle Making</option>
+            <option>Soap Making</option>
+            <option>Detergent Powder</option>
+            <option>Beautician Services</option>
+            <option>Mehendi Design</option>
+            <option>Mobile Repair</option>
+            <option>Computer Typing</option>
+            <option>Data Entry</option>
+            <option>Graphic Designing</option>
+            <option>Social Media Marketing</option>
+            <option>Online Tutoring</option>
+            <option>Handicraft Making</option>
+            <option>Paper Bag Making</option>
+            <option>Spoken English Training</option>
+        </select>
+
+        <label>Select Skill Level</label>
+        <select id="skillLevel">
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+
+        <button onclick="checkOpportunity()">Check Opportunity</button>
+        <div id="result" class="result-box"></div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "skills": [
+    { "name": "Tailoring", "sell": "Local Boutiques, Bridal Shops", "baseIncome": 14000 },
+    { "name": "Embroidery", "sell": "Textile Shops, Custom Orders", "baseIncome": 13000 },
+    { "name": "Handloom Weaving", "sell": "Handloom Societies, Export Markets", "baseIncome": 18000 },
+    { "name": "Pickle Making", "sell": "Grocery Stores, Weekly Markets", "baseIncome": 15000 },
+    { "name": "Masala Powder", "sell": "Supermarkets, Provision Stores", "baseIncome": 16000 },
+    { "name": "Millet Products", "sell": "Organic Stores, Online Platforms", "baseIncome": 20000 },
+    { "name": "Bakery Items", "sell": "Tea Shops, Local Bakeries", "baseIncome": 17000 },
+    { "name": "Dairy Products", "sell": "Hotels, Supermarkets", "baseIncome": 22000 },
+    { "name": "Poultry Farming", "sell": "Wholesale Buyers, Retail Shops", "baseIncome": 21000 },
+    { "name": "Mushroom Cultivation", "sell": "Restaurants, Organic Markets", "baseIncome": 23000 },
+    { "name": "Organic Vegetable Selling", "sell": "Direct Markets, Organic Shops", "baseIncome": 18000 },
+    { "name": "Flower Garland Making", "sell": "Temple Areas, Flower Markets", "baseIncome": 12000 },
+    { "name": "Agarbatti Making", "sell": "Religious Stores, Wholesale Dealers", "baseIncome": 11000 },
+    { "name": "Leaf Plate Making", "sell": "Catering Services, Event Suppliers", "baseIncome": 13000 },
+    { "name": "Candle Making", "sell": "Gift Shops, Online Stores", "baseIncome": 12500 },
+    { "name": "Soap Making", "sell": "Organic Stores, Beauty Shops", "baseIncome": 14000 },
+    { "name": "Detergent Powder", "sell": "Retail Stores, Local Distributors", "baseIncome": 16000 },
+    { "name": "Beautician Services", "sell": "Bridal Events, Home Services", "baseIncome": 19000 },
+    { "name": "Mehendi Design", "sell": "Wedding Functions, Festive Events", "baseIncome": 13000 },
+    { "name": "Mobile Repair", "sell": "Service Centers, Local Shops", "baseIncome": 20000 },
+    { "name": "Computer Typing", "sell": "Office Work, Documentation Centers", "baseIncome": 15000 },
+    { "name": "Data Entry", "sell": "Online Companies, Freelance Projects", "baseIncome": 18000 },
+    { "name": "Graphic Designing", "sell": "Freelance Platforms, Digital Agencies", "baseIncome": 25000 },
+    { "name": "Social Media Marketing", "sell": "Digital Agencies, Small Businesses", "baseIncome": 26000 },
+    { "name": "Online Tutoring", "sell": "Online Classes, Educational Platforms", "baseIncome": 22000 },
+    { "name": "Handicraft Making", "sell": "Exhibitions, Online Marketplaces", "baseIncome": 14000 },
+    { "name": "Paper Bag Making", "sell": "Retail Stores, Supermarkets", "baseIncome": 15000 },
+    { "name": "Spoken English Training", "sell": "Training Centers, Online Coaching", "baseIncome": 24000 }
+  ]
+}
